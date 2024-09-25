@@ -1,0 +1,26 @@
+  504  echo "собаки, кошки, хомяки" > "Домашние животные"
+  505  cat Домашние животные 
+  506  nano Домашние\ животные 
+  507  echo "Лошади, верблюды, ослы" > "Вьючные животные"
+  508  git add .
+  509  git status
+  510  git commit -am "create 2 new files"
+  511  git push -u origin main
+  512  cat Домашние\ животные Вьючные\ животные > все\ животные
+  513  ls -al
+  514  cat все\ животные 
+  515  mv все\ животные все\ домашние\ животные
+  516  ls -al
+  517  mkdir dir
+  518  mv все\ домашние\ животные dir/
+  519  ls -al
+  520  cd dir/
+  521  ls
+  522  cd ../
+  523  git add .
+  524  git commit -am "new dir"
+  525  git push -u origin main
+  526  sudo apt-get update 
+  527  sudo apt-get install mysql-server
+  528  sudo dpkg --remove google-chrome-stable_current_amd64
+  529  history
